@@ -1,0 +1,12 @@
+{
+  "files.exclude": {
+    "logseq/*": true
+  },
+  "sarif-viewer.connectToGithubCodeScanning": "off",
+  "cSpell.words": [
+    "bsicon",
+    "cssicon",
+    "DesRosiers",
+    "jsicon"
+  ]
+}
