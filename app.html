@@ -2,7 +2,7 @@
 <html lang="en" class="h-100">
 
 <head>
-    <title>App Name: A coding project by Tom DesRosiers</title>
+    <title>The Even Ascent: A coding project by Tom DesRosiers</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -12,6 +12,11 @@
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
     <script src="https://kit.fontawesome.com/5db21ba9c6.js" crossorigin="anonymous"></script>    
+
+  <!--FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
 
   <!-- Our Style Sheet-->
   <link rel="stylesheet" href="css/site.css">
@@ -27,7 +32,7 @@
     <!--== Nav Section== -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="img/LogoTd.png" class="d-inline-block align-text-top" alt="Tom D Logo" width="30" height="24"> APP NAME</a>
+            <a class="navbar-brand racing-sans-one-regular" href="#"><img src="img/LogoTd.png" class="d-inline-block align-text-top" alt="Tom D Logo" width="30" height="24"> THE EVEN ASCENT</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -57,12 +62,47 @@
 
      <!--=== MAIN SECTION === -->
     <main class="flex-shrink-0">
-      <div class="container">
+      <div class="container mt-5">
+            <div class="row row-cols-1 row-cols-lg-2">
+                <div class="col-lg-4  col border-end border-2">
+                      
+                    <h1 class="racing-sans-one-regular">THE EVEN ASCENT: A Coding Project</h1>
 
+                    <h4 class="lead">
+                        Live life one loop at a time. A javascript coding program that displays the numbers 0 to 100. Display
+                        the even numbers in <strong>BOLD.</strong>
+                    </h4>
+
+                    <h2 class="mt-5 border-bottom border-2">Instructions</h2>
+
+                    <p>Enter a starting value and an ending value. Press the button and the values will appear.</p>
+
+                </div>
+
+                <div class="col-lg-8 col">
+                    <h5>Enter Values</h5>
+
+                    <form class="row gy-2 gx-3">
+
+                        <div class="col">
+                            <input id="startValue" type="number" class="form-control" placeholder="Start Value" value = 0 aria-label="Start Value">
+                        </div>
+
+                        <div class="col">
+                            <input id="endValue" type="number" class="form-control" placeholder="End Value" value = 100 aria-label="End Value">
+                        </div>
+
+                        <div class="col-12 d-flex justify-content-end mt-3">
+                            <button type="button" id="btnSubmit" class="btn btn-dark btn-lg">Display The Numbers</button>
+                        </div>
+                    
+                    </form>
+                </div>
+            </div>
       </div>
     </main>
 
-   <!--== Footer == -->
+   <!-- Footer -->
     <footer class="footer mt-auto py-3 bg-sticky-footer">
         <div class="container-fluid">
             <!--@info 12 wide row bootstrap will spread col across = 4-->
@@ -70,7 +110,7 @@
 
                 <div class="col order-last order-lg-first text-light">
                     <div>
-                        <span class="text-muted">© 2026 App Name </span>
+                        <span class="text-muted">© 2026 THE EVEN ASCENT</span>
                     Tom DesRosiers | tomdesrosiers@gmail.com
                      </div>
                 
