@@ -7,7 +7,7 @@ function getValues(){
     let startValue = document.getElementById("startValue").value;
 
   //We call Generate Numbers
-``
+
 
   //We call Display Numbers
 
